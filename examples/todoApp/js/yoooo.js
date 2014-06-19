@@ -52,7 +52,7 @@ var YooooApp = React.createClass({
       <div>
         <YooooList items={this.state.items} />
         <form onSubmit={this.handleSubmit}>
-          <label>your name: </label>
+          <label>yoooour name: </label>
           <input onChange={this.onChange} value={this.state.name} />
           <button>click to YOOOO</button>
         </form>
