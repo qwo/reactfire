@@ -17,7 +17,9 @@ ul {
 
 #demoContainer h1 {
     text-align: center;
-    color: black;
+    color: white;
+    font-size: 48px;
+    margin: 15px 0;
 }
 
 .yooooAppContainer {
@@ -27,7 +29,7 @@ ul {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: yellow;
+    background-color: #9B59B6;
     color: white;
     font-weight: bold;
     margin: 0;
