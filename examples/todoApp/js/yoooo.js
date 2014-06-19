@@ -1,8 +1,8 @@
 /** @jsx React.DOM */
 var YooooList = React.createClass({
   render: function() {
-    var createYoooo = function(item) {
-      return <li><span className="yoooo">{item.name}: YOOOO</span></li>;
+    var createYoooo = function(item, index, array) {
+      return <li><span className="yoooo">{array[array.length-index-1].name}: YOOOO</span></li>;
     };
     return <ul>{this.props.items.map(createYoooo)}</ul>;
   }
@@ -50,12 +50,12 @@ var YooooApp = React.createClass({
   render: function() {
     return (
       <div>
-        <YooooList items={this.state.items} />
         <form onSubmit={this.handleSubmit}>
           <label>yoooour name: </label>
           <input onChange={this.onChange} value={this.state.name} />
           <button>click to YOOOO</button>
         </form>
+        <YooooList items={this.state.items} />
       </div>
     );
   }
