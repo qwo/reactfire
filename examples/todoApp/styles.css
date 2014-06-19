@@ -1,13 +1,71 @@
 #demoContainer {
-    width: 950px;
+    width: 100%;
     margin: auto;
+}
+
+p {
+    background-color: turquoise;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+ul {
+    padding-left: 0;
 }
 
 #demoContainer h1 {
     text-align: center;
+    color: black;
 }
 
-.todoAppContainer {
+.yooooAppContainer {
     float: left;
-    width: 300px;
+    width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: yellow;
+    color: white;
+    font-weight: bold;
+}
+
+form {
+    width: 100%;
+    background-color: magenta;
+    text-align: center;
+}
+
+input {
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+li {
+    list-style-type: none;
+    color: white;
+    padding: 10px;
+    height: 20px;
+    position: relative;
+    text-align: center;
+    background-color: purple;
+}
+
+li span.yoooo {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    top: 0; right: 0; bottom: 0; left: 0;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
 }
