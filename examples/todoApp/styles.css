@@ -1,6 +1,5 @@
 #demoContainer {
     width: 100%;
-    margin: auto;
 }
 
 p {
@@ -8,10 +7,12 @@ p {
     padding: 20px;
     color: white;
     text-align: center;
+    margin: 0;
 }
 
 ul {
-    padding-left: 0;
+    padding: 0;
+    margin: 0;
 }
 
 #demoContainer h1 {
@@ -29,6 +30,7 @@ body {
     background-color: yellow;
     color: white;
     font-weight: bold;
+    margin: 0;
 }
 
 form {
