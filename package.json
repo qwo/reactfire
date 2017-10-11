@@ -32,7 +32,7 @@
     "package.json"
   ],
   "dependencies": {
-    "react": "^0.10.0",
+    "react": "^0.14.0",
     "envify": "^1.2.1",
     "firebase": "1.0.x"
   },
